@@ -8,6 +8,9 @@ pop = [2.53, 2.57, 2.62, 2.67, 2.71, 2.76, 2.81, 2.86, 2.92, 2.97, 3.03, 3.08, 3
 
 # Print the last item from year and pop
 #plt.plot(year[-1,:], pop[-1,:])
+print(year[-1:])
+print(pop[-1:])
+
 
 
 # Make a line plot: year on the x-axis, pop on the y-axis
@@ -17,5 +20,5 @@ y = pop
 
 # Display the plot with plt.show()
 
-plt.plot( x, y)
+plt.plot(year,pop)
 plt.show()
